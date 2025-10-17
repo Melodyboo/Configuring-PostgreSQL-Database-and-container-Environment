@@ -17,7 +17,8 @@ in azure portal
   - create a new container app enivronment
   - enable ingress made it external
   - target port: 3000
-  - set up storage space to be 1cpu and memory= 2Gb
+  - set up stora<img width="729" height="393" alt="Screenshot 2025-07-13 172025" src="https://github.com/user-attachments/assets/7015da56-e9b4-44fc-ad33-c96a2920a5f6" />
+ge space to be 1cpu and memory= 2Gb
   - verify deployment
 
   After this go to the resources copy the already made url and paste it on your browser to see the display
