@@ -54,4 +54,28 @@ STEP 5(REVIEW AND CREATE)
 after checking every thing i went ahead and click create
 <img width="542" height="468" alt="Screenshot 2025-10-17 100737" src="https://github.com/user-attachments/assets/9c358d26-ca81-42d2-a527-ce1044b48fdf" />
 <img width="521" height="435" alt="Screenshot 2025-10-17 100814" src="https://github.com/user-attachments/assets/01798bd0-f0ec-4308-8b16-acf5e01d1111" />
-p
+
+STEP 5
+Deployment took few minutes and it was successful
+<img width="471" height="301" alt="Screenshot 2025-10-18 094505" src="https://github.com/user-attachments/assets/bcd4d433-3f89-44a5-9941-4627483f2e41" />
+
+*CREATE DATABASE*
+
+STEP 1
+-Click go to resources 
+- from the menu click settings
+- database
+- <img width="1120" height="360" alt="Screenshot 2025-10-18 095820" src="https://github.com/user-attachments/assets/9f4bbbfd-9db3-4b70-9e38-15c8ece5adec" />
+
+step 2
+from the database you will see other database that was created already
+<img width="774" height="197" alt="Screenshot 2025-10-18 101217" src="https://github.com/user-attachments/assets/ff6e8082-09c4-4469-ac01-44d4e23871c6" />
+
+i added mine which is demo_db 
+<img width="511" height="241" alt="Screenshot 2025-10-18 101628" src="https://github.com/user-attachments/assets/d3fb976b-5f5d-4e48-bfb6-e2b555da0c05" />
+and clicked save
+
+demo_db' PostgreSQL database was created
+<img width="869" height="253" alt="Screenshot 2025-10-18 101954" src="https://github.com/user-attachments/assets/5c074f31-c54e-498e-99ae-52bcbf1cc52f" />
+
+
