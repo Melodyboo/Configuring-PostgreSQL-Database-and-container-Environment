@@ -78,4 +78,23 @@ and clicked save
 demo_db' PostgreSQL database was created
 <img width="869" height="253" alt="Screenshot 2025-10-18 101954" src="https://github.com/user-attachments/assets/5c074f31-c54e-498e-99ae-52bcbf1cc52f" />
 
+STEP 3
+from the menu click connect
+changed the default database to the one i created demo_db
+the default database
+<img width="623" height="507" alt="Screenshot 2025-10-18 104724" src="https://github.com/user-attachments/assets/f045e89f-7605-4858-af82-b30be4b17cbd" />
+the database i created
+<img width="454" height="458" alt="Screenshot 2025-10-18 104845" src="https://github.com/user-attachments/assets/74ddee9a-a660-4354-9a3a-ce8c97226aa5" />
+
+STEP 4
+after changing the database, it give us different programs connection strings 
+<img width="611" height="473" alt="Screenshot 2025-10-18 105507" src="https://github.com/user-attachments/assets/9490eecb-863e-46d3-a8c1-a51a188b2ee7" />
+
+-for my project i'm using Server=texting.postgres.database.azure.com;Database=demo_db;Port=5432;User Id=azureuser;Password={your_password};Ssl Mode=Require;
+<img width="426" height="90" alt="Screenshot 2025-10-18 105708" src="https://github.com/user-attachments/assets/f5463196-6ad3-4bad-aafe-726841e01728" />
+
+-inorder to connect to the database we use cloudshell using psql -h texting.postgres.database.azure.com -p 5432 -U azureuser demo_db
+<img width="609" height="125" alt="Screenshot 2025-10-18 111251" src="https://github.com/user-attachments/assets/3a8479b8-0ef5-4294-8441-41e1d52b292e" />
+<img width="802" height="192" alt="Screenshot 2025-10-18 111856" src="https://github.com/user-attachments/assets/5f2c5da7-d03e-43e0-b01b-e5dbc126379c" />
+
 
