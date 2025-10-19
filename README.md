@@ -1,29 +1,53 @@
+NAME: OZABOR FAITH OBEHI
+
+
+PROJECT:
 Configuring PostgreSQL Database and container Environment
 ***objective****
 *Deploy an application using container app Service using Azure*
 
-Steps To depoly the application
+STEP 1
 CREATE A RESOURCE GROUPS
 in azure portal
 -open the resource groups
-- click create
+- Give it a name ( texting)
 - choose a name a name and region ( East us2)
+- <img width="368" height="253" alt="Screenshot 2025-10-19 035012" src="https://github.com/user-attachments/assets/7abdcd60-091e-49c1-9264-050238e91ed5" />
+click create
 
+STEP 2
   CREATE A CONTAINER APP ENIVROMENT
   - open the container app
   - click container app
-  - put the resources group
-  - create a new container app enivronment
-  - enable ingress made it external
+  - Click the existing resources group
+  - give the container app a name(texting-ng)
+  - for deployment source: container image
+  - <img width="657" height="411" alt="Screenshot 2025-10-19 040321" src="https://github.com/user-attachments/assets/7062d82d-25a4-41a8-acda-d18c19a62489" />
+  -for the container enivronment we use the same region
+  - the container enivronment:texting-9570(texting)
+  - click next
+  - <img width="680" height="257" alt="Screenshot 2025-10-19 040544" src="https://github.com/user-attachments/assets/a6841800-3c0b-481b-99f1-0975094def62" />
+
+STEP 3
+CONTAINER
+-Name still remain texting-ng
+- image source we use docker hub and other registry
+- enter the docker image that was created
+- <img width="654" height="572" alt="Screenshot 2025-10-19 041528" src="https://github.com/user-attachments/assets/1357b9fa-5990-47ee-89da-39e514029b8a" />
+
+STEP 4
+INGRESS
+  - enable ingress
+  - Ingress Traffic: accepting from anywhere
   - target port: 3000
-  - set up storage space to be 1cpu and memory= 2Gb
-  - verify deployment
+  - Ingress type: HTTP
+  - <img width="675" height="585" alt="Screenshot 2025-10-19 042013" src="https://github.com/user-attachments/assets/b1cbdbde-d657-490b-af0b-c5d17553cd61" />
 
-  After this go to the resources copy the already made url and paste it on your browser to see the display
+STEP 5
+REVIEW AND CREATE
+<img width="669" height="590" alt="Screenshot 2025-10-19 042207" src="https://github.com/user-attachments/assets/b6b760d3-418e-4696-9be9-10d0f1fd1ce9" />
 
-  ISSUES I ENCOUNTERED
-  at first i used 0.5vcpu and Memory 0.1 and i was having error then i increased the memory space and it worked
-  
+
 *CONFIGURE POSTGRESQL DATABASE*
 STEP 1
 open azure click on New Azure Database for PostgreSQL flexible server
