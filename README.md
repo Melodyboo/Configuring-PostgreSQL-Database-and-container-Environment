@@ -47,6 +47,16 @@ STEP 5
 REVIEW AND CREATE
 <img width="669" height="590" alt="Screenshot 2025-10-19 042207" src="https://github.com/user-attachments/assets/b6b760d3-418e-4696-9be9-10d0f1fd1ce9" />
 
+<img width="447" height="426" alt="Screenshot 2025-10-19 042442" src="https://github.com/user-attachments/assets/1e308ae9-af07-4e73-96d0-ff0f61c27f0c" />
+
+<img width="437" height="284" alt="Screenshot 2025-10-19 042646" src="https://github.com/user-attachments/assets/cf32f767-a77b-47e0-a901-ca6433499e9e" />
+
+once deployment is complete click resource
+
+STEP 6
+
+
+
 
 *CONFIGURE POSTGRESQL DATABASE*
 STEP 1
