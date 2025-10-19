@@ -53,9 +53,18 @@ REVIEW AND CREATE
 
 once deployment is complete click resource
 
+
 STEP 6
+From the menu click on revison and repicas
+click basic to see if the application is running
+<img width="657" height="547" alt="Screenshot 2025-10-19 044141" src="https://github.com/user-attachments/assets/37fe5968-3810-4e00-abda-e97a712983d0" />
 
+click on logs to check if there is any error, the screenshot below showed that there is no error found
+<img width="642" height="602" alt="Screenshot 2025-10-19 044428" src="https://github.com/user-attachments/assets/d96f067c-5d13-425f-85e0-977b7068c073" />
 
+we use this url to check our final result, by pasting the url on our local browser
+texting-ng--0000001.mangoground-6127c913.westus2.azurecontainerapps.io
+<img width="945" height="574" alt="Screenshot 2025-10-19 043836" src="https://github.com/user-attachments/assets/a6eae898-28ac-4d57-8210-ea3576a0af5a" />
 
 
 *CONFIGURE POSTGRESQL DATABASE*
