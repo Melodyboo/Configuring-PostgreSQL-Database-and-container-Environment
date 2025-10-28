@@ -140,4 +140,31 @@ after changing the database, it give us different programs connection strings
 <img width="609" height="125" alt="Screenshot 2025-10-18 111251" src="https://github.com/user-attachments/assets/3a8479b8-0ef5-4294-8441-41e1d52b292e" />
 <img width="802" height="192" alt="Screenshot 2025-10-18 111856" src="https://github.com/user-attachments/assets/5f2c5da7-d03e-43e0-b01b-e5dbc126379c" />
 
+*CONFIGURE DATABASE*
+
+step 1
+from azure create a container app
+- after deployment go to resources
+- <img width="664" height="473" alt="Screenshot 2025-10-28 195413" src="https://github.com/user-attachments/assets/af1478e7-4c3b-4816-834e-a939a6891e9c" />
+- Go to resources
+- from the menu you choose revision and replicas and containers
+- <img width="658" height="255" alt="Screenshot 2025-10-28 200946" src="https://github.com/user-attachments/assets/b4b4ddc7-904d-4aa6-97e4-e6b9975c1353" />
+
+ - from container we see enivronment variables
+ - we click add
+ - <img width="740" height="336" alt="Screenshot 2025-10-28 201801" src="https://github.com/user-attachments/assets/ce469b0c-4f2f-464e-bf87-a1a11f8b2de0" />
+
+the other way to add variables is going to security 
+- the click secrets
+- <img width="954" height="457" alt="Screenshot 2025-10-28 202117" src="https://github.com/user-attachments/assets/4ed56612-fdfd-4460-8a48-6a77ecaa722d" />
+add secrets named th secrets (defaultconnection)
+<img width="462" height="265" alt="Screenshot 2025-10-28 203016" src="https://github.com/user-attachments/assets/a62f0441-ed64-4252-ba6b-8862f6c4e8fd" />
+
+-go back to containers
+-touch environment variables
+- click add, the source should be "referenceasecret" and the value should be "defaultconnection" that is the secrets we created
+- <img width="865" height="416" alt="Screenshot 2025-10-28 203247" src="https://github.com/user-attachments/assets/b6d53205-db3a-43e3-93e5-c355769a8233" />
+- the save as anew revision
+- 
+
 
