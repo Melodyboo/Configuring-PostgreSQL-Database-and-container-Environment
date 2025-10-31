@@ -165,6 +165,18 @@ add secrets named th secrets (defaultconnection)
 - click add, the source should be "referenceasecret" and the value should be "defaultconnection" that is the secrets we created
 - <img width="865" height="416" alt="Screenshot 2025-10-28 203247" src="https://github.com/user-attachments/assets/b6d53205-db3a-43e3-93e5-c355769a8233" />
 - the save as anew revision
-- 
+
+  *ARCHITECTURE*
+- User: Accesses the web app via browser or device.  
+- *Azure Container App*: Runs the web application in a container.  
+- *Azure PostgreSQL Flexible Server*: Stores application data.  
+- *Azure Container Environment*: Manages networking, scaling, and logs.
+- <img width="640" height="327" alt="Screenshot 2025-10-31 111019" src="https://github.com/user-attachments/assets/62be5226-9a0a-455d-b376-dcaa7017f418" />
+
+
+  Data Flow
+1. The user sends a request to the Azure Container App.
+2. The app processes requests and interacts with PostgreSQL to store/retrieve data.
+3. Azure Container Environment manages scaling, logs, and networking to keep the services running efficiently.
 
 
